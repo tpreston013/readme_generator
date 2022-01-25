@@ -1,17 +1,17 @@
 
-## ReadMe Generator
+# Readme Gen
 
-#Description
-An application to create a ReadMe.md file. 
+# Description
+descr
 
-##Installation
-instructions
+# Installation
+instr
 
-##Usage
+# Usage
 details
 
-#Contribute
-asdfjkl;
+# Contribute
+guidelines
 
-##Testing
-instructions
+# Testing
+instr

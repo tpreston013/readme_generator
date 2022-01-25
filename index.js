@@ -48,21 +48,21 @@ const generateReadme = ({
     contributionGuidelines,
     testInstructions
 }) => `
-## ${projectName}
+# ${projectName}
 
-#Description
+# Description
 ${projectDescription}
 
-##Installation
+# Installation
 ${installation}
 
-##Usage
+# Usage
 ${usageInfo}
 
-#Contribute
+# Contribute
 ${contributionGuidelines}
 
-##Testing
+# Testing
 ${testInstructions}
 `
 
@@ -70,7 +70,7 @@ ${testInstructions}
 
 const init = () => {
     questions()
-    .then((userInput)=> fs.writeFileSync(`Readme.md`, generateReadme(userInput)))
+    .then((userInput)=> fs.writeFileSync(`README.md`, generateReadme(userInput)))
     .catch((err) => {
         throw err
     })
